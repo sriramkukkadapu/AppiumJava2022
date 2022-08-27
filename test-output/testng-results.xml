@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19309" started-at="2022-08-27T14:57:40 IST" finished-at="2022-08-27T14:57:59 IST">
+  <suite name="Default suite" duration-ms="9093" started-at="2022-08-27T16:45:53 IST" finished-at="2022-08-27T16:46:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19309" started-at="2022-08-27T14:57:40 IST" finished-at="2022-08-27T14:57:59 IST">
-      <class name="AppiumJava2022.AppiumJava2022.TheAppLogin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumJava2022.AppiumJava2022.TheAppLogin@7a30d1e6]" name="beforeTest" is-config="true" duration-ms="7400" started-at="2022-08-27T14:57:33 IST" finished-at="2022-08-27T14:57:40 IST">
+    <test name="Default test" duration-ms="9093" started-at="2022-08-27T16:45:53 IST" finished-at="2022-08-27T16:46:02 IST">
+      <class name="AppiumJava2022.AppiumJava2022.WebAppTests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumJava2022.AppiumJava2022.WebAppTests@43bd930a]" name="beforeTest" is-config="true" duration-ms="6366" started-at="2022-08-27T16:45:47 IST" finished-at="2022-08-27T16:45:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="clipBoard()[pri:0, instance:AppiumJava2022.AppiumJava2022.TheAppLogin@7a30d1e6]" name="clipBoard" duration-ms="4754" started-at="2022-08-27T14:57:40 IST" finished-at="2022-08-27T14:57:45 IST">
+        <test-method status="PASS" signature="search()[pri:0, instance:AppiumJava2022.AppiumJava2022.WebAppTests@43bd930a]" name="search" duration-ms="9075" started-at="2022-08-27T16:45:53 IST" finished-at="2022-08-27T16:46:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clipBoard -->
-        <test-method status="PASS" signature="login()[pri:0, instance:AppiumJava2022.AppiumJava2022.TheAppLogin@7a30d1e6]" name="login" duration-ms="5245" started-at="2022-08-27T14:57:45 IST" finished-at="2022-08-27T14:57:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="picker()[pri:0, instance:AppiumJava2022.AppiumJava2022.TheAppLogin@7a30d1e6]" name="picker" duration-ms="9288" started-at="2022-08-27T14:57:50 IST" finished-at="2022-08-27T14:57:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- picker -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumJava2022.AppiumJava2022.TheAppLogin@7a30d1e6]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-08-27T14:57:59 IST" finished-at="2022-08-27T14:57:59 IST">
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumJava2022.AppiumJava2022.WebAppTests@43bd930a]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-08-27T16:46:02 IST" finished-at="2022-08-27T16:46:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- AppiumJava2022.AppiumJava2022.TheAppLogin -->
+      </class> <!-- AppiumJava2022.AppiumJava2022.WebAppTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

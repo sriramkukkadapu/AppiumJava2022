@@ -22,6 +22,8 @@ TheApp
 }
 ```
 
+## Tip: Fix for issue in emulator while running test -> “chromedriver” cannot be opened because the developer cannot be verified. 
+xattr -d com.apple.quarantine <chromedriver executable path>
 
 ## Install Java 8, Open JDK from below link
 - https://adoptium.net/temurin/releases?version=8

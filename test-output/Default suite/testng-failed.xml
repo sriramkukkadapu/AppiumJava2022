@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppiumJava2022.AppiumJava2022.TheAppLogin">
+      <class name="AppiumJava2022.AppiumJava2022.WebAppTests">
         <methods>
-          <include name="afterTest"/>
+          <include name="search"/>
           <include name="beforeTest"/>
-          <include name="login"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- AppiumJava2022.AppiumJava2022.TheAppLogin -->
+      </class> <!-- AppiumJava2022.AppiumJava2022.WebAppTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
