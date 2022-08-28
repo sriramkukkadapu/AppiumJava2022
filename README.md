@@ -7,10 +7,9 @@
 ## For inspecting elements
 
 1) Start appium `appium -p 4723`
-2) Start appium inspector with below capabilities.
+2) Start appium inspector with below capabilities. It is for "TheApp"
 
 ```json
-TheApp
 {
   "platformName": "android",
   "appium:automationName": "uiautomator2",
@@ -23,7 +22,7 @@ TheApp
 ```
 
 ## Tip: Fix for issue in emulator while running test -> “chromedriver” cannot be opened because the developer cannot be verified. 
-xattr -d com.apple.quarantine <chromedriver executable path>
+`xattr -d com.apple.quarantine <chromedriver executable path>`
 
 ## Install Java 8, Open JDK from below link
 - https://adoptium.net/temurin/releases?version=8
