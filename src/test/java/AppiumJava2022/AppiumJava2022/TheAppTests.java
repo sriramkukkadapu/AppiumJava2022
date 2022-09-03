@@ -33,6 +33,9 @@ public class TheAppTests {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("appium:newCommandTimeout", 900000);
             capabilities.setCapability("appium:adbExecTimeout", 70000);
+            capabilities.setCapability("appium:deviceName", "Nexus 6 API 29");
+            capabilities.setCapability("appium:noReset", false);
+            capabilities.setCapability("appium:fullReset", true);
             capabilities.setCapability("appium:automationName", "UiAutomator2");
             capabilities.setCapability("appium:autoGrantPermissions", true);
             //capabilities.setCapability("appium:app", System.getProperty("user.dir") + "/Apps/TheApp-v1.10.0.apk");

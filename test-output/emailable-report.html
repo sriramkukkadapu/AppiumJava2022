@@ -9,10 +9,60 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9,093</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,129</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">AppiumJava2022.AppiumJava2022.WebAppTests</td><td><a href="#m0">search</a></td><td rowspan="1">1661598953697</td><td rowspan="1">9075</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">AppiumJava2022.AppiumJava2022.StartAppiumFrmCode</td><td><a href="#m0">afterTest</a></td><td rowspan="1">1662182237401</td><td rowspan="1">334</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">AppiumJava2022.AppiumJava2022.StartAppiumFrmCode</td><td><a href="#m1">clipBoard</a></td><td rowspan="1">1662182219271</td><td rowspan="1">4676</td></tr><tr class="passedeven"><td><a href="#m2">login</a></td><td rowspan="1">1662182223949</td><td rowspan="1">5199</td></tr><tr class="passedeven"><td><a href="#m3">picker</a></td><td rowspan="1">1662182229150</td><td rowspan="1">8229</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">AppiumJava2022.AppiumJava2022.WebAppTests#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">AppiumJava2022.AppiumJava2022.StartAppiumFrmCode#afterTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Connection refused
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;srirams-MBP&apos;, ip: &apos;fe80:0:0:0:1059:2ab0:3879:4182%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5f5537df-96c5-4d85-8e23-0f74d82bcb06, quit {}]
+Capabilities {appium:adbExecTimeout: 20000, appium:app: /Users/sriramku/eclipse-wor..., appium:appPackage: com.vodqareactnative, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 20000, app: /Users/sriramku/eclipse-wor..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Nexus 6 API 29, newCommandTimeout: 20, platformName: android}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2560, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 20, appium:pixelRatio: 3.5, appium:platformVersion: 10, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 5f5537df-96c5-4d85-8e23-0f74d82bcb06
+	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$execute$4(AppiumCommandExecutor.java:192)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:267)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:443)
+	at AppiumJava2022.AppiumJava2022.StartAppiumFrmCode.afterTest(StartAppiumFrmCode.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:344)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">AppiumJava2022.AppiumJava2022.StartAppiumFrmCode#clipBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">AppiumJava2022.AppiumJava2022.StartAppiumFrmCode#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">AppiumJava2022.AppiumJava2022.StartAppiumFrmCode#picker</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
